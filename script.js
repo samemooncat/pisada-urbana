@@ -226,7 +226,7 @@ window.TIENDA_DATOS = {
   "backend": "https://script.google.com/macros/s/AKfycbzx_1TXhVfVCFQFNmBJoI6K0vPOOq-LakHg6I1dQ0BJuDRF0gDs_hs4fSULkts6eMj9rA/exec",
   "negocio": {
     "ciudad": "Bogotá, sector Plaza España (Los Mártires)",
-    "cobertura": "Domicilios en todo Bogotá por $16.000, en 1 a 2 días hábiles. Envíos al resto de Colombia por transportadora por $25.000, en 3 a 5 días hábiles. Recogida en Plaza España, Bogotá; dirección con número o local: [POR COMPLETAR].",
+    "cobertura": "Domicilios en todo Bogotá por $16.000, en 1 a 2 días hábiles. Envíos al resto de Colombia por transportadora por $25.000, en 3 a 5 días hábiles. Recogida en el Centro Comercial Plaza España, carrera 19 #10-85, local 160, Bogotá.",
     "horarios": [
       "Viernes de 8:00 a. m. a 8:00 p. m."
     ]
