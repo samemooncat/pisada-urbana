@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- Landing creada en el Laboratorio de Landing Pages · Profesor Harvey Sanabria -->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tenis running negro con suela blanca · Pisada Urbana</title>
+<meta name="description" content="Gran variedad de modelos para hombre, mujer y niños, con tallas de la 32 a la 43 y atención personalizada por WhatsApp.">
+<!-- Vista previa al compartir el enlace en redes y WhatsApp -->
+<meta property="og:title" content="Renueva tu estilo con tenis urbanos y deportivos directo desde Plaza España.">
+<meta property="og:description" content="Gran variedad de modelos para hombre, mujer y niños, con tallas de la 32 a la 43 y atención personalizada por WhatsApp.">
+<meta property="og:image" content="https://samemooncat.github.io/pisada-urbana/img/p02-tenis-urbano-blanco-1-slt9md.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--c:#8b7ae1;--ct:#ffffff;--bg:#ffffff;--bg2:#f4f1ff;--tx:#14121c;--tx2:#5c5868;--r:22px;--ft:'Bricolage Grotesque',system-ui,sans-serif;--fb:'DM Sans',system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font-family:var(--fb);line-height:1.6}
+img{max-width:100%;display:block}
+.contenedor{max-width:1080px;margin:0 auto;padding:0 22px}
+h1,h2{font-family:var(--ft);line-height:1.08;letter-spacing:-.02em}
+.boton{display:inline-flex;align-items:center;gap:8px;background:var(--c);color:var(--ct);padding:16px 30px;border-radius:var(--r);font-weight:700;text-decoration:none;font-size:17px;box-shadow:0 10px 28px color-mix(in srgb,var(--c) 35%,transparent);transition:transform .2s}
+.boton:hover{transform:translateY(-2px)}
+/* Barra superior: solo la marca y el botón (sin menú que distraiga) */
+.barra{display:flex;justify-content:space-between;align-items:center;padding:16px 0}
+.barra strong{font-family:var(--ft);font-size:20px}
+.barra a{color:var(--c);font-weight:700;text-decoration:none;font-size:14px}
+/* 1. Hero */
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center;padding:40px 0 70px}
+.etiqueta{display:inline-block;background:color-mix(in srgb,var(--c) 12%,transparent);color:var(--c);padding:6px 14px;border-radius:100px;font-size:13px;font-weight:700;margin-bottom:18px}
+.hero h1{font-size:clamp(38px,5.6vw,66px);margin-bottom:18px}
+.hero p{font-size:19px;color:var(--tx2);margin-bottom:28px;max-width:520px}
+.micro{display:block;margin-top:14px;font-size:13px;color:var(--tx2)}
+.foto-hero{width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:calc(var(--r) * 2);box-shadow:0 30px 60px rgba(0,0,0,.12);background:var(--bg2)}
+.foto-vacia{display:grid;place-items:center;background:repeating-linear-gradient(45deg,var(--bg2),var(--bg2) 12px,color-mix(in srgb,var(--c) 8%,var(--bg2)) 12px,color-mix(in srgb,var(--c) 8%,var(--bg2)) 24px);color:var(--tx2);font-weight:600;text-align:center;padding:20px}
+section{padding:70px 0}
+.alterna{background:var(--bg2)}
+.centro{text-align:center;max-width:720px;margin:0 auto}
+section h2{font-size:clamp(30px,4vw,46px);margin-bottom:16px}
+.centro p{font-size:18px;color:var(--tx2)}
+/* 3. Beneficios */
+.beneficios{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.beneficio{background:var(--bg);border-radius:calc(var(--r) * 1.5);padding:28px;border:1px solid color-mix(in srgb,var(--tx) 8%,transparent)}
+.beneficio b{display:grid;place-items:center;width:42px;height:42px;border-radius:50%;background:var(--c);color:var(--ct);margin-bottom:14px;font-family:var(--ft)}
+.beneficio p{font-size:16px;font-weight:600}
+/* 5. Oferta */
+.oferta{display:grid;grid-template-columns:.9fr 1.1fr;gap:36px;align-items:center;background:var(--bg);border-radius:calc(var(--r) * 2);padding:30px;border:2px solid var(--c)}
+.foto-oferta{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r);background:var(--bg2)}
+.precio{font-family:var(--ft);font-size:44px;color:var(--c);margin:6px 0 10px}
+.condiciones{color:var(--tx2);margin-bottom:22px}
+/* 6. Preguntas frecuentes */
+.faq{max-width:760px;margin:30px auto 0;display:grid;gap:10px}
+details{background:var(--bg);border-radius:var(--r);padding:18px 22px;border:1px solid color-mix(in srgb,var(--tx) 10%,transparent)}
+summary{font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between}
+summary::after{content:'+';color:var(--c);font-size:22px;line-height:1}
+details[open] summary::after{content:'–'}
+details p{margin-top:10px;color:var(--tx2)}
+/* 7. Cierre */
+.cierre{background:var(--c);color:var(--ct);text-align:center}
+.cierre .boton{background:var(--ct);color:var(--c);box-shadow:none}
+.cierre a.secundario{display:block;margin-top:18px;color:var(--ct);opacity:.9;font-weight:600}
+footer{padding:28px 0 90px;text-align:center;font-size:13px;color:var(--tx2)}
+footer small{display:block;margin-top:6px;font-size:11px;opacity:.7}
+/* Botón fijo en celular */
+.cta-movil{display:none}
+@media(max-width:780px){
+  .hero,.oferta{grid-template-columns:1fr}
+  .hero{padding:16px 0 50px;gap:26px}
+  .beneficios{grid-template-columns:1fr}
+  section{padding:54px 0}
+  .cta-movil{display:block;position:fixed;left:12px;right:12px;bottom:12px;text-align:center;justify-content:center;z-index:10}
+}
+</style>
+</head>
+<body>
+<div class="contenedor barra"><strong>Pisada Urbana</strong><a href="https://samemooncat.github.io/pisada-urbana/?utm_source=landing&amp;utm_medium=barra&amp;utm_campaign=tenis-running-negro-con-suela-blanca">Explorar y pedir mis tenis →</a></div>
+
+<!-- 1. HERO: promesa + llamado a la acción -->
+<header class="contenedor hero">
+  <div>
+    <span class="etiqueta">Para Jóvenes, deportistas y familias en Bogotá que buscan teni…</span>
+    <h1>Renueva tu estilo con tenis urbanos y deportivos directo desde Plaza España.</h1>
+    <p>Gran variedad de modelos para hombre, mujer y niños, con tallas de la 32 a la 43 y atención personalizada por WhatsApp.</p>
+    <a class="boton" href="https://samemooncat.github.io/pisada-urbana/?utm_source=landing&amp;utm_medium=hero&amp;utm_campaign=tenis-running-negro-con-suela-blanca">Explorar y pedir mis tenis →</a>
+    <span class="micro">Pago contraentrega en Bogotá • Envíos nacionales disponibles</span>
+  </div>
+  <img class="foto-hero" src="https://samemooncat.github.io/pisada-urbana/img/p02-tenis-urbano-blanco-1-slt9md.jpg" alt="Tenis running negro con suela blanca">
+</header>
+
+<!-- 2. EL PROBLEMA -->
+<section class="alterna"><div class="contenedor centro">
+  <h2>¿Te ha pasado?</h2>
+  <p>Comprar en centros comerciales es demasiado costoso y a veces es difícil encontrar tallas exactas o una asesoría rápida y directa.</p>
+</div></section>
+
+<!-- 3. BENEFICIOS -->
+<section><div class="contenedor">
+  <div class="centro"><h2>Por qué elegir Tenis running negro con suela blanca</h2></div>
+  <div class="beneficios">
+    <div class="beneficio"><b>1</b><p>Buenos precios: una gran alternativa frente a los altos costos de los centros comerciales.</p></div>
+    <div class="beneficio"><b>2</b><p>Inclusión de tallas: modelos disponibles desde la talla 32 hasta la 43 para todos.</p></div>
+    <div class="beneficio"><b>3</b><p>Facilidad de entrega: domicilios en Bogotá (1 a 2 días hábiles), envíos nacionales y opción de recogida local en Plaza España.</p></div>
+  </div>
+</div></section>
+
+<!-- 4. CONFIANZA -->
+<section class="alterna"><div class="contenedor centro">
+  <h2>Hecho de verdad</h2>
+  <p>Atención cercana y confiable con canales de pago seguros (Nequi, Daviplata, transferencias y pago contraentrega en Bogotá), respaldados por cambios de talla sin costo.</p>
+</div></section>
+
+<!-- 5. LA OFERTA -->
+<section><div class="contenedor">
+  <div class="oferta">
+    <img class="foto-oferta" src="https://samemooncat.github.io/pisada-urbana/img/p02-tenis-urbano-blanco-1-slt9md.jpg" alt="Tenis running negro con suela blanca">
+    <div>
+      <h2>Tenis running negro con suela blanca</h2>
+      <p class="precio">$149.900</p>
+      <p class="condiciones">Pago contraentrega en Bogotá • Envíos nacionales disponibles</p>
+      <a class="boton" href="https://samemooncat.github.io/pisada-urbana/?utm_source=landing&amp;utm_medium=oferta&amp;utm_campaign=tenis-running-negro-con-suela-blanca">Explorar y pedir mis tenis →</a>
+    </div>
+  </div>
+</div></section>
+
+<!-- 6. PREGUNTAS FRECUENTES -->
+<section class="alterna"><div class="contenedor">
+  <div class="centro"><h2>Preguntas frecuentes</h2></div>
+  <div class="faq">
+    <details><summary>¿Hacen domicilios?</summary><p>Sí, en todo Bogotá y envíos al resto de Colombia.</p></details>
+    <details><summary>¿Cómo pago?</summary><p>Nequi, Daviplata, transferencia bancaria o pago contraentrega en Bogotá.</p></details>
+    <details><summary>¿Tienen cambios de talla?</summary><p>Sí, el negocio ofrece cambio de talla sin costo.</p></details>
+  </div>
+</div></section>
+
+<!-- 7. CIERRE -->
+<section class="cierre"><div class="contenedor centro">
+  <h2>No te quedes sin tu talla, encárgalos hoy mismo por WhatsApp.</h2>
+  <a class="boton" href="https://samemooncat.github.io/pisada-urbana/?utm_source=landing&amp;utm_medium=cierre&amp;utm_campaign=tenis-running-negro-con-suela-blanca">Explorar y pedir mis tenis →</a>
+  <a class="secundario" href="https://wa.me/573002456780?text=Hola%20Pisada%20Urbana%2C%20tengo%20una%20pregunta%20sobre%20Tenis%20running%20negro%20con%20suela%20blanca.">¿Tienes dudas? Escríbenos por WhatsApp</a>
+</div></section>
+
+<footer class="contenedor">© 2026 Pisada Urbana<small>Landing creada en el Laboratorio de Landing Pages · Prof. Harvey Sanabria</small></footer>
+<a class="boton cta-movil" href="https://samemooncat.github.io/pisada-urbana/?utm_source=landing&amp;utm_medium=movil&amp;utm_campaign=tenis-running-negro-con-suela-blanca">Explorar y pedir mis tenis →</a>
+</body>
+</html>
