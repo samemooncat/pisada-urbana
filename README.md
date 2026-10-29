@@ -1,5 +1,9 @@
 # Pisada Urbana
 
+- Integrantes:
+- Catalin Garces Valencia
+- Julieth Valentina Sanabria Garcia
+  
 Prototipo de tienda virtual creado para el proyecto Shopper Metaverso,
 generado con **Harvys**, el asistente de e-commerce del Profesor Harvey Sanabria.
 
